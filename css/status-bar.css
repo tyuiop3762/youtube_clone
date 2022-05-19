@@ -1,0 +1,27 @@
+.status-bar{
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+}
+.tatus-bar__column{
+    width: 33%;
+}
+.tatus-bar__column span{
+    margin-left: 50%;
+}
+.tatus-bar__column:first-child span{
+   margin-left: 5px;
+   
+}
+.tatus-bar__column:nth-child(2){
+    display: flex;
+}
+.tatus-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tatus-bar__column .fa-battery-full{
+    margin: 0px 5px;
+}
